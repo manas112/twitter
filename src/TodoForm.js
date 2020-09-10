@@ -6,7 +6,7 @@ const TodoForm = ({ saveTodo }) => {
 
   return (
     <form
-      onSubmit={(event) => {
+         onSubmit={(event) => {
         event.preventDefault();
         saveTodo(value);
         setValue('');
@@ -14,14 +14,19 @@ const TodoForm = ({ saveTodo }) => {
     >
       <TextField
         variant="outlined"
-        placeholder="Add todo"
+        placeholder="What's Happening"
         margin="normal"
+        
         onChange={(event) => {
           setValue(event.target.value);
         }}
         value={value}
       />
     </form>
+
+    
+    
+    
   );
 };
 

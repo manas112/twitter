@@ -5,7 +5,34 @@ h1 {
 div {
   background-color: lavender;
 }
+.App {
+  background: #209cee;
+  padding: 30px;
+  height: 100vh;
+}
 
+.TodoList {
+  background: #e8e8e8;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.TodoForm {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container{
+  padding: none;
+ margin: 1%;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
