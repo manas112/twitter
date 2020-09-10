@@ -18,7 +18,7 @@ const App = () => {
     
       <div className="App">
         <img src="/images/twee.jpg"  alt="" />
-      <Box bgcolor="info.main" m={-4} mb={2}>
+      <Box bgcolor="info.main" m={-1} mb={4}>
       <Typography component="h1" variant="h2">
         Twitter
       </Typography>
