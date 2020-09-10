@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import TextField from '@material-ui/core/TextField';
+import {useLocalState} from './hooks'
 import './index.css';
 const TodoForm = ({ saveTodo }) => {
-  const [value, setValue] = useState('');
+  
+  
+  const [value, setValue] = useLocalState('value');
 
   return (
     <form
