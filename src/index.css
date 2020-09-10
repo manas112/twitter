@@ -31,7 +31,13 @@ div {
 }
 .container{
   padding: none;
- margin: 1%;
+ margin: auto;
+}
+img{
+   height: 200px;
+   margin: auto;
+
+
 }
 body {
   margin: 0;

@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom';
 import './index.css';
+import './App.css';
 import TodoForm from './TodoForm';
 import React, { useState } from 'react';
 import { Typography } from '@material-ui/core';
@@ -16,6 +17,7 @@ const App = () => {
     
     
       <div className="App">
+        <img src="/images/twee.jpg"  alt="" />
       <Box bgcolor="info.main" m={-4} mb={2}>
       <Typography component="h1" variant="h2">
         Twitter
@@ -62,7 +64,5 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+
 
