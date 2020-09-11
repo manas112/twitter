@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import TextField from '@material-ui/core/TextField';
-import {useLocalState} from './hooks'
 import './index.css';
 const TodoForm = ({ saveTodo }) => {
   
   
-  const [value, setValue] = useLocalState('value');
+  const [value, setValue] = useState('');
 
   return (
     <form
@@ -17,7 +16,7 @@ const TodoForm = ({ saveTodo }) => {
     >
       <TextField
         variant="outlined"
-        placeholder="What's Happening"
+        placeholder="What's Happening?"
         margin="normal"
         
         onChange={(event) => {

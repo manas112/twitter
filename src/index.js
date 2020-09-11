@@ -7,7 +7,9 @@ import { Typography } from '@material-ui/core';
 import TodoList from './TodoList';
 import  DateTime  from './DateTime';
 import Box from '@material-ui/core/Box';
-import {useLocalState} from './hooks'
+//import {Provider} from 'react-redux';
+//import {PersistGate} from 'redux-persist/integration/react';
+//import{store,persistor} from './redux/store';
 
 
 const App = () => {
@@ -60,7 +62,11 @@ const App = () => {
   );
 };
 ReactDOM.render(
+  //<Provider store={store}>
+    //<PersistGate persistor={persistor}>
     <App />,
+    //</PersistGate>
+  //</Provider>,
   document.getElementById('root')
 );
 
